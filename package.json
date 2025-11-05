@@ -1,6 +1,6 @@
 {
   "name": "feeby",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Hand-drawn React components using RoughJS - create sketchy, playful UIs",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -53,6 +53,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/feeby"
+    "url": "https://github.com/priyanshu-sharma/feeby"
+  },
+  "homepage": "https://feeby.priyanshu.org",
+  "bugs": {
+    "url": "https://github.com/priyanshu-sharma/feeby/issues"
   }
 }
