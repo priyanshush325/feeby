@@ -22,6 +22,21 @@ export { FoldedCorner } from './components/FoldedCorner';
 
 // Container Components
 export { TapedBox } from './components/TapedBox';
+export { BulletinBoard } from './components/BulletinBoard';
+
+// Paper Components
+export { BinderPaper } from './components/BinderPaper';
+export { RippedBanner } from './components/RippedBanner';
+
+// Interactive Components
+export { DoodlePad } from './components/DoodlePad';
+
+// Decorative & Visual Elements
+export { PaperAirplane } from './components/PaperAirplane';
+export { JourneyLine } from './components/JourneyLine';
+
+// Social & Icon Components
+export { SketchySocialIcon } from './components/SketchySocialIcon';
 
 // Type Exports
 export type { SketchyBackgroundProps } from './components/SketchyBackground';
@@ -35,18 +50,10 @@ export type { TapeProps } from './components/Tape';
 export type { ThumbTackProps } from './components/ThumbTack';
 export type { FoldedCornerProps } from './components/FoldedCorner';
 export type { TapedBoxProps } from './components/TapedBox';
-
-// TODO: Add remaining components as you migrate them:
-// - BinderPaper
-// - CrumpledPaper
-// - RippedBanner
-// - DoodlePad
-// - PaperAirplane
-// - BulletinBoard
-// - TrashCan
-// - FragranceCard
-// - JourneyLine
-// - VoteTriangle
-// - SketchySocialIcon
-// - SocialsBox
-// - SocialsLabel
+export type { BulletinBoardProps } from './components/BulletinBoard';
+export type { BinderPaperProps } from './components/BinderPaper';
+export type { RippedBannerProps } from './components/RippedBanner';
+export type { DoodlePadProps } from './components/DoodlePad';
+export type { PaperAirplaneProps } from './components/PaperAirplane';
+export type { JourneyLineProps, Point } from './components/JourneyLine';
+export type { SketchySocialIconProps } from './components/SketchySocialIcon';
