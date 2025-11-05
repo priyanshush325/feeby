@@ -1,0 +1,58 @@
+{
+  "name": "feeby",
+  "version": "0.1.0",
+  "description": "Hand-drawn React components using RoughJS - create sketchy, playful UIs",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "roughjs": "^4.6.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  },
+  "optionalDependencies": {
+    "lucide-react": "^0.525.0"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "roughjs",
+    "hand-drawn",
+    "sketchy",
+    "ui-components",
+    "feeby",
+    "doodle",
+    "playful"
+  ],
+  "author": "Priyanshu Sharma",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/feeby"
+  }
+}
