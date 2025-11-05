@@ -7,6 +7,7 @@ export interface SketchyButtonProps {
   onClick?: () => void;
   className?: string;
   style?: CSSProperties;
+  fontFamily?: string;
 }
 
 /**
@@ -17,6 +18,7 @@ export interface SketchyButtonProps {
  * @param onClick - Click handler
  * @param className - Additional CSS classes
  * @param style - Additional inline styles
+ * @param fontFamily - Font family for button text
  */
 export const SketchyButton: React.FC<SketchyButtonProps> = ({
   children,
@@ -24,6 +26,7 @@ export const SketchyButton: React.FC<SketchyButtonProps> = ({
   onClick,
   className = '',
   style,
+  fontFamily,
 }) => {
   const buttonStyle: CSSProperties = {
     position: 'relative',
@@ -39,6 +42,7 @@ export const SketchyButton: React.FC<SketchyButtonProps> = ({
     cursor: 'pointer',
     border: 'none',
     background: 'transparent',
+    fontFamily,
     ...style,
   };
 
